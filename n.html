@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>w</title>
+    <style>
+        .front{
+            background-color: purple;
+            height: 120px;
+            padding: 50px;
+            position: sticky;
+        }
+        .start{
+            width: 40%;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            background-color:  purple;
+            margin-bottom: 20px;
+          }
+          .container_2{
+            display: flex;
+            flex-direction: row;
+            background-color: #fffff1;
+          }
+          .video1 {
+            flex: 1;
+          }
+          .video1 video {
+            width: 100%;
+          }
+          .video2 {
+            flex: 1;
+          }
+          .video2 video {
+            width: 100%;
+            margin-top: 60px;
+            border-top-right-radius: 170px;
+            border-bottom-right-radius: 170px;
+          }
+          .video3 {
+            flex: 1;
+          }
+          .video3 video {
+            width: 100%;
+            border-top-left-radius: 170px;
+            border-bottom-left-radius: 170px;
+          }
+          .video4 {
+            flex: 1;
+          }
+          .video4 video {
+            width: 100%;
+            border-top-right-radius: 170px;
+            border-bottom-right-radius: 170px;
+          }
+          .video5 {
+            flex: 1;
+          }
+          .video5 video {
+            width: 100%;
+            border-top-right-radius: 170px;
+            border-bottom-right-radius: 170px;
+          }
+          .text1{
+            text-align: center;
+          }
+          
+          .text {
+            flex: 1;
+            padding: 0 20px;
+          }
+          
+          .text p {
+            font-size: 18px;
+            line-height: 1.5;
+          }    
+        .front .topnav button a {
+            background-color: purple;
+            border-radius: -0.5px;
+
+        }
+        .transparent-button {
+            background-color: transparent;
+            border: solid;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px 20px;
+          }
+          .transparent-btn {
+            background-color: white;
+            border: solid;
+            color: purple;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px 20px;
+            
+          }
+          
+.topnav {
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    
+  }
+  .container .text h1{
+   color: white;
+   font-size: 70px;
+   position: relative;
+   bottom: 75px;
+   left: 30px;
+   
+
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .a .img {
+    margin-right: 500px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+    </style>
+</head>
+<body >
+   <div class="front">
+    <div class="topnav" id="myTopnav">
+        <style>  a {
+            text-align: justify;
+        } </style>
+        <a href="#n.html"><img src="/logo.png">Slack</a>
+        <a href="#home" class="active">Product</a>
+        <a href="#solution">Solutions</a>
+        <a href="#enterprise">Enterprise</a>
+        <a href="#Resources">Resources</a>
+        <a href="#pricing">Pricing</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a> 
+        <style> a {
+            margin: 1px;
+        }
+        </style>
+        <a href="#n.html"><img src="/search.png"> </a>
+        <a href="#sign in">Sign in</a>
+        <button class="transparent-button">TALK TO SALES</button>
+        <button class="transparent-btn">TRY FOR FREE</button>
+      </div>
+      </div>
+      <div class="container">   
+         <div class="text">
+         <h1>Unlock your</h1><h2>productivity potential</h2>
+         <p>Connect the right people, find anything that you need and <br> automate the rest. 
+             That's work in Slack, your productivity<br> platform.</p>
+     
+         <a href="#">SIGN UP WITH EMAIL ADDRESS</a> <a href="#">SIGN UP WITH GOOGLE</a>
+         <p>Slack is free to try for as long as you like</p>
+        </div>
+      <div class="video1">
+         <video src="first video.webm"  autoplay muted loop></video></p> 
+     </div>
+    </div>
+    <div class="container_2"> 
+    <div class="video2">
+        <video src="second_videoo.webm"  autoplay muted loop></video>
+        </div>
+        <div class=" text">
+            <h1>Bring your team together</h1>
+            <p>At the heart of Slack are channels: organised spaces for everyone and everything 
+                that you need for work. In channels, it's easier to connect across departments, 
+                offices, time zones and even other companies.</p>
+                <a href="#"> Learn about channels → </a>
+        </div>
+    </div>
+    <div class="container_2">
+    <div class="text" >
+        <h1>Choose how you want to work</h1>
+        <p>In Slack, you've got all the flexibility to work when, where and how it's best for you.
+             You can easily chat, send audio and video clips, or join a huddle to talk things through live.</p>
+             <a href="#"> Learn more about flexible communication →</a>
+    </div>
+    <div class="video3">
+        <video src="video3.webm"  autoplay muted loop></video>
+    </div>
+</div>
+<div class="container_2">
+    <div class="video4">
+        <video src="video4.webm"  autoplay muted loop></video>
+    </div>
+    <div class="text" >
+        <h1>Move faster with your tools in one place</h1>
+        <p>With your other work apps connected to Slack, you can work faster by switching tabs less. And
+             with powerful tools like Workflow Builder, you can automate away routine tasks.</p>
+             <a href="#"> Learn more about the Slack platform → </a>
+    </div>
+</div>
+    <div class="text">
+    <h1>
+        Teams large and small rely on Slack
+    </h1>
+    <h2>Slack securely scales up to support collaboration at the world's biggest companies.</h2>
+    <button><a href="#">MEET SLACK FO INTERPRISE</a></button>
+    <BUtton><a href="#">TALK TO SALES</a></BUtton>
+    <H1>85%</H1>
+    <H2>of users say that Slack has improved communication*</H2>
+    <H1>86%</H1>
+    <H2>feel that their ability to work remotely has improved*</H2>
+    <H1>88%</H1>
+    <H2>feel more connected to their teams*</H2>
+</div >
+<div class="container_2">
+    <div class="video5">
+        <video src="video5.mp4"  autoplay muted loop></video>
+    </div>
+    <div class="text" >
+        <p>‘We were able to create a large virtual network of employees that can communicate
+             as though they are together. There was a lot of disruption in terms of where we 
+             worked, but in terms of how we worked - very little disruption.’
+            Mark Smith
+            Senior Technical Product Manager, T-Mobile</p>
+             <a href="#"> See more customer stories → </a>
+    </div>
+</div>
+<div class="text1">* Weighted average. Based on 2,707 survey responses from weekly Slack users in the US,
+     UK, Australia and Canada with a ± 2% margin of error at 95% CI (December 2021).</div>
+     <div class="grid-container">
+        <div>
+            <p>Collection</p>
+             <h1> Slack as your digital HQ</h1>
+             <img src="/11.jpg" alt="">
+        </div>
+        <div>
+            <img src="/22.jpg" alt="">
+            <p>Collection</p>
+            <h1> Slack as your digital HQ</h1>
+        </div>  
+        <div>
+            <img src="/33.png" alt="">
+       </div>  
+        <div>
+            <img src="/44.jpg" alt="">
+        </div>
+      </div>
+</body>
+</html>
